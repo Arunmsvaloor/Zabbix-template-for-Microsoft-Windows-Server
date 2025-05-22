@@ -26,3 +26,4 @@ jobs:
         run: |
           git remote add gitlab https://${GITLAB_USERNAME}:${GITLAB_TOKEN}@gitlab.com/gitlabjaleel/arunmsvaloor-zabbix-template-for-microsoft-windows-server.git
           git push --prune gitlab "refs/heads/*:refs/heads/*" "refs/tags/*:refs/tags/*"
+          
